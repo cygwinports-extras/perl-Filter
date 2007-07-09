@@ -1,0 +1,87 @@
+perl-Filter
+-------------------------------------------
+This distribution consists of a number of Source Filters.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  perl-5.8.7-5
+
+Build requirements:
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  perl-5.8.7-5
+
+Canonical homepage:
+  http://search.cpan.org/~pqms/Filter/
+
+Canonical download:
+  http://www.cpan.org/authors/id/P/PQ/PQMS/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Filter-1.34-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Filter-1.34-1.cygport all
+
+This will create:
+  /usr/src/perl-Filter-1.34-1-src.tar.bz2
+  /usr/src/perl-Filter-1.34-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Filter.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Filter/Util/Call.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Filter/Util/Exec.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Filter/cpp.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Filter/decrypt.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Filter/exec.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Filter/sh.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Filter/tee.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/Util/Call/Call.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/Util/Call/Call.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/Util/Call/libCall.dll.a
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/Util/Exec/Exec.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/Util/Exec/Exec.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/Util/Exec/libExec.dll.a
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/decrypt/decrypt.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/decrypt/decrypt.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/decrypt/libdecrypt.dll.a
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/tee/libtee.dll.a
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/tee/tee.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Filter/tee/tee.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/filter-util.pl
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/perlfilter.pod
+  /usr/share/doc/Cygwin/perl-Filter-1.34.README
+  /usr/share/doc/perl-Filter-1.34/Changes
+  /usr/share/doc/perl-Filter-1.34/README
+  /usr/share/man/man3/Filter.cpp.3pm.gz
+  /usr/share/man/man3/Filter.exec.3pm.gz
+  /usr/share/man/man3/Filter.sh.3pm.gz
+  /usr/share/man/man3/perlfilter.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Filter.pod
+
+------------------
+
+Port Notes:
+
+----- version 1.34-1 -----
+Version bump.
+
+----- version 1.32-1 -----
+Version bump.
+
+----- version 1.29-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

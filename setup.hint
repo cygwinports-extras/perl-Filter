@@ -1,0 +1,4 @@
+category: Perl
+requires: cygwin perl
+sdesc: "Source filter Perl module"
+ldesc: "This distribution consists of a number of Source Filters."
